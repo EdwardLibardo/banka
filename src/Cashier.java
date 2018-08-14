@@ -1,21 +1,26 @@
+import java.util.ArrayList;
 import java.util.Random;
+import java.util.function.Supplier;
 
-public class Cashier  {
-    boolean cash ;
+public class Cashier implements Supplier<String> {
+    private String name;
+    private Boolean free;
 
-    public static boolean getRandomBoolean() {
-        return Math.random() < 0.5;
-    }
-    public void cashiMethod(){
-
-        if (getRandomBoolean()==false){
-            System.out.println("You will not be attended by the cashier");
-        }
-
-        if (getRandomBoolean()==true){
-            System.out.println("You will be attended by the cashier");
-        }
-
+    public Cashier(String name, Boolean free) {
+        this.name = name;
+        this.free = free;
     }
 
+    @Override
+    public String get() {
+        return null;
+    }
+
+    public boolean availability() {
+        return free;
+    }
+
+    public void setAvailability(boolean free) {
+        this.free= free;
+    }
 }

@@ -1,0 +1,13 @@
+
+]squid:UselessImportCheck"3Remove this unused import 'javafx.concurrent.Task'.(Úåôg8—Â‰«Ó,
+dsquid:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(üŸ´Â8ŸË¸®Ó,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ª­°ƒıÿÿÿÿ8ê±ôªÓ,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë¯é²şÿÿÿÿ8ê±ôªÓ,
+Ksquid:S1481&"-Remove this unused "callable" local variable.(èÒö8ÿåÁ®Ó,
+|squid:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(©Ğ×Œøÿÿÿÿ8ö©®Ó,
+Fsquid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŸË¸®Ó,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ê±ôªÓ,
+[
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Î©¦•øÿÿÿÿ8ŸË¸®Ó,
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8—Â‰«Ó,
+nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(ç‰¢Éúÿÿÿÿ8Òà‘«Ó,

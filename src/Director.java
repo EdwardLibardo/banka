@@ -1,10 +1,10 @@
-public class Director{
+import java.util.function.Supplier;
+
+public class Director implements Supplier<String> {
 
 
-
-    public void direct(){
-        System.out.println("You will be attended by the director");
+    @Override
+    public String get() {
+        return null;
     }
-
-
 }

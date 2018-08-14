@@ -1,8 +1,10 @@
-public class Supervisor  {
+import java.util.function.Supplier;
 
-     public void supervi(){
-    System.out.println("You will be attended by the supervisor");
+public class Supervisor  implements Supplier<String> {
+
+
+    @Override
+    public String get() {
+        return null;
     }
-
-
 }
