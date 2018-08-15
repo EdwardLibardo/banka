@@ -16,13 +16,20 @@ public class Dispatcher {
 
     ExecutorService executor = Executors.newFixedThreadPool(10);
 
-    private void cashiernumber (int Quantitycashiers){
+
+    public Dispatcher() {
+        createdcashier(6);
+
+    }
+
+    
+    private void createdcashier (int Quantitycashiers){
         for(int i=1;i<=Quantitycashiers;i++){
-            cashiers.add(new Cashier("Number of cashier # "+i,true));
+            cashiers.add(new Cashier("Number of cashier : "+i,true,null));
         }
     }
 
-    private Cashier cashierisavailable(){
+    private Cashier obtaincashierisavailable(){
         for(Cashier cashier:cashiers)
         {
             if(cashier.availability())
@@ -31,7 +38,19 @@ public class Dispatcher {
         return null;
     }
 
+    public void attend(List<Client> clientstoassign)
+    {
+        int i=0;
+        while(i<clientstoassign.size()) {
 
 
-}
+        }
+        executor.shutdown();
+    }
+
+
+
+    }
+
+
 

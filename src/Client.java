@@ -1,32 +1,21 @@
 public class Client {
-    private int id;
     private String name;
+    private BankOperation bankOperation;
 
-    public Client(int id, String name) {
-            this.id = id;
-            this.name = name;
-
+    public Client(String name, BankOperation bankOperation) {
+        this.name = name;
+        this.bankOperation = bankOperation;
     }
 
+    public void performOperation(){
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
-    public String clients(){
-        return " Id "+id+" Name "+name;
+    public BankOperation getOperation() {
+        return bankOperation;
     }
 }
