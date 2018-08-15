@@ -22,7 +22,7 @@ public class Dispatcher {
 
     }
 
-    
+
     private void createdcashier (int Quantitycashiers){
         for(int i=1;i<=Quantitycashiers;i++){
             cashiers.add(new Cashier("Number of cashier : "+i,true,null));
